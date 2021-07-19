@@ -108,16 +108,34 @@
           }
         }
 
+
+        class gunting extends SuitClass
+        {
+            constructor(player)
+            {
+                super(player);
+
+            }
+            
+        }
+
         function mybatu()
         {
             let bt = new SuitClass("BATU");
             bt.suit();
         }
+
         function myjari()
+        {
+            let bt = new gunting("GUNTING");
+            bt.suit();
+        }
+
+      /*  function myjari()
         {
             let bt = new SuitClass("GUNTING");
             bt.suit();
-        }
+        }*/
 
         function mykertas()
         {
